@@ -1,19 +1,10 @@
 This is a Power BI analysis of Healthcare data of hospitals accross various countries.
-There are three dimension tables (Bed_detail, Department and staff_detail) and one fact table (detail data set) 
-Two dashboards are created, one is based on department wise analysis and the other is based on patient wise analysis.
+There are three dimension tables (Bed_detail, Department and staff_detail) and one fact table (detail data set).
 
-Insights: 
-1. Average age of patients in cardiology department is 47.66.
-2. Average treatment cost is 299.10.
-3. Majority of patients in cardiology are inpatients.
+Three dashboards are created:
 
-Similarly, other departments can be selected to show the related visualizations.
+1. Main Dashboard: Contains the overviews of the inpatient and outpatient dashboards and has navigation buttons to navigate to the respective dashboards.
+2. Inpatient Dashboard: Contains KPI analysis for KPIs like mortality rate, average treatment cost, patient to staff ratio, inpatient satisfaction rate, average inpatient rating, bed turnover rate etc.
+3. Outpatient Dashboard: Contains KPI analysis for KPIs like Average age, treatment cost, patient to staff ratio, average ER time etc.
 
-Insights for patient analysis:
-
-1. Average age of patients is 29.
-2. Average length of stay is: 11-13 Days.
-3. Average treatment cost is: 165.72 
-4. Most common feedback is: Fully agree.
-
-Similarly, age, city and age bucket can be selected to customize the visuals.
+Each of the secondary dashboards contains a back button to navigate to the main dashboard. The secondary dashboards also contain more granular analysis of each KPI by using line, column and donut charts with a slicer provided for selecting the department.
